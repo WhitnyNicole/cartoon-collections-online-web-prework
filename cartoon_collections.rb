@@ -1,13 +1,13 @@
 def roll_call_dwarves# code an argument here
   # Your code here
-  dwarfs.each_with_index do | name , index |
+    dwarfs.each_with_index do | name , index |
     puts "#{index + 1} #{name}"
   end
 end
 
 def summon_captain_planet# code an argument here
   # Your code here
-  veggies.collect do |call| 
+    veggies.collect do |call| 
     call.capitalize + "!"
   end
 end
@@ -15,8 +15,8 @@ end
 def long_planeteer_calls# code an argument here
   # Your code here
    answer = false
-  long_planteer_calls.each do |call|
-    if call.length > 4
+    long_planteer_calls.each do |call|
+  if call.length > 4
       answer = true
     end
 end
